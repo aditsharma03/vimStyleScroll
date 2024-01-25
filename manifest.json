@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "vimScroll",
+  "version": "1.0",
+
+  "description": "Enables users to scroll using hjkl keys, similar to vim.",
+
+  "icons": {
+    "48": "icons/height_48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["scroll.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
+
