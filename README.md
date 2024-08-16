@@ -9,6 +9,11 @@
   </list>
 </p>
 
+```
+#Usage
+Alt + <direction key>
+```
+
 <hr>
 
 ps: this addon does not work on each and every website but something is better than nothing :))
